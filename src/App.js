@@ -31,7 +31,7 @@ function App() {
     <div className="App">
       <h1>Movie Search App</h1>
       <SearchBar onSearch={searchMovies} />
-      <Movieist movies={movies} />
+      <Movie List movies={movies} />
     </div>
   );
 }
