@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.sentence-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sentence {
+  opacity: 0;
+  transform: translateY(20px);
+  font-size: 18px;
+  margin: 10px;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
